@@ -6,7 +6,7 @@
 
     <body>
         
-        <div id="app1">
+        <div id="app">
             <header>
                 <h2 v-text="sitename"></h2>
             </header>   
@@ -26,11 +26,10 @@
 
         <script type="text/javascript">
             var schoolclub = new Vue({
-                el: '#app1',
+                el: '#app',
                 data: {
                     sitename: 'After School Club',
                     subject:{//the subject information stored in a Vue object
-                        id:1001,
                         title:"Math",
                         location:"London",
                         price: "$100",
